@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public class Class1
+    class Orar
     {
-        //remove or alter this class, then implement your models.  
+        private string nume_disciplina;
+        private string zi;
+        private string interval_orar;
     }
 }
