@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    class Orar
+    interface INota
     {
-        private string nume_disciplina;
-        private string zi;
-        private string interval_orar;
+        void adaugareNota(Disciplina disciplina, Student student, Nota nota); //adaugare nota la o anumita disciplina
     }
 }

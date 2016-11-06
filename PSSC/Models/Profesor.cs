@@ -9,7 +9,11 @@ namespace Models
    
     class Profesor:Persoana
     {
-        private string cabinet;
+        private List<Disciplina> discipline;
 
+        public Profesor(string nume, string prenume, Sex sex, string CNP, string adresa):base(nume, prenume, sex, CNP, adresa)
+        {
+            this.discipline = new List<Disciplina>();
+        }
     }
 }
